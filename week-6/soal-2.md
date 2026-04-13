@@ -73,10 +73,11 @@ Jawaban: Tidak ada segmen yang ditransmisikan ulang.
 
 ### soal 9
 
-Cara Menghitung: $$\text{Throughput} = \frac{\text{Total Data Bytes}}{\text{Waktu Selesai} - \text{Waktu Mulai}}$$ Langkah Perhitungan (Berdasarkan Gambar):Total Data: Ambil Sequence Number terakhir yang dikirim klien (Paket 199 memiliki Seq=164041 dan Len=50, jadi total data sampai paket itu adalah 164091 byte).Waktu Mulai: Paket No. 1 (SYN) pada jam 0.000000.Waktu Selesai: Paket ACK terakhir (No. 202) pada jam 5.455830.Estimasi Hasil:
-$$\text{Throughput} = \frac{164091 \text{ byte}}{5.455830 \text{ detik}} \approx 30.076 \text{ byte/detik}
-$$
-Penjelasan: Nilai ini adalah rata-rata kecepatan transfer data dari seluruh koneksi TCP tersebut.
+- Cara Menghitung:
+- $$\text{Throughput} = \frac{\text{Total Data Bytes}}{\text{Waktu Selesai} - \text{Waktu Mulai}}$$
+- Langkah Perhitungan (Berdasarkan Gambar):Total Data: Ambil Sequence Number terakhir yang dikirim klien (Paket 199 memiliki Seq=164041 dan Len=50, jadi total data sampai paket itu adalah 164091 byte).Waktu Mulai: Paket No. 1 (SYN) pada jam 0.000000.Waktu Selesai: Paket ACK terakhir (No. 202) pada jam 5.455830.Estimasi Hasil:
+- $$\text{Throughput} = \frac{164091 \text{ byte}}{5.455830 \text{ detik}} \approx 30.076 \text{ byte/detik}$$
+- Penjelasan: Nilai ini adalah rata-rata kecepatan transfer data dari seluruh koneksi TCP tersebut.
 
 
 
